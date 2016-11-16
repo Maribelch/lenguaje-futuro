@@ -1,3 +1,58 @@
-/*
-	Inserta tu CSS aqui
-*/
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(../img/grupal.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment:scroll;
+    min-height: 860px;
+}
+header .boton {
+    background: #f5aa1b;
+    border-radius: 4px;
+    padding: 10px 18px;
+    margin-top: 82px;
+    display: inline-block;
+}
+header a{
+    text-decoration:none;
+    color: #000;
+}
+header ul {
+    list-style: none;
+}
+header li {
+    display: inline-block;
+    padding-right: 16px;
+    margin-top: 70px;
+}
+header img {
+    margin-top: 80px;
+}
+
+.contenido img {
+    width: 100%;
+}
+.contenido p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 10px;
+}
+.contenido {
+    margin: 30px 0 20px 0;
+}
+
+footer {
+    background: #393939;
+    padding: 15px 0;
+    color: #fff;
+}
+.col-5 img{
+    width:455px;
+    margin-top: 93px;
+   
+}
